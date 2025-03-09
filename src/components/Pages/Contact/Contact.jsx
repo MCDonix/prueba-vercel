@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './contact.css';
 import { Layout } from '../../Layout/Layout';
 
 
 
 const Contact = () => {
+
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -29,6 +31,8 @@ const Contact = () => {
   const closePopup = () => {
     setShowPopup(false);
   };
+
+
 
   return (
     <Layout>

@@ -24,8 +24,8 @@
 .card {
   border-radius: 15px;
   padding: 20px;
-  background: #f9f9f9;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background: #e2e1e1;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
 }
 

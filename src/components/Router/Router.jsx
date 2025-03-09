@@ -5,6 +5,7 @@ import { Apidata } from "../Pages/Apidata/Apidata";
 
 
 const Router = () => {
+
   return (
     <BrowserRouter>
       <Routes>
