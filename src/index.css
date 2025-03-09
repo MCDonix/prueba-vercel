@@ -1,4 +1,4 @@
 main {
-  position: relative;
+  position: flex;
   min-height: 100vh;
 }

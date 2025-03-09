@@ -1,6 +1,7 @@
 .navbar {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .navbar-toggle {
@@ -37,38 +38,32 @@
   color: #ffcc00;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 5px;
-
 }
-
 
 @media (max-width: 768px) {
   .navbar-toggle {
     display: block;
-
   }
 
   .navbar-list {
     display: none;
-
     flex-direction: column;
     position: absolute;
-    top: 70px;
-
+    top: 60px;
     right: 1rem;
     background-color: #cc0000;
-
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 1rem;
   }
 
   .navbar-list.active {
     display: flex;
-
   }
 
   .navbar-item {
     margin: 0.5rem 0;
-
   }
 
   .navbar-link {
